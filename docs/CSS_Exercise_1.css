@@ -2,7 +2,6 @@
     width: 100%;
     height: 100%;
     overflow: scroll;
-    
 }
 
 html, body {
@@ -30,5 +29,15 @@ html, body {
     width: 500px;
     height: auto;
     align-items: center;
-    float: left;
+}
+.left-aligned {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;           /* Remove default padding */
+    text-align: left;     /* Align items to the left */
+}
+
+.centered {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;           /* Remove default padding */
+    text-align: center;   /* Center align items */
 }
